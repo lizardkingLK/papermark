@@ -88,6 +88,8 @@ cp .env.example .env
 | BLOB_READ_WRITE_TOKEN    | < Vercel Blob Token >                  |
 | GOOGLE_CLIENT_ID         | < Google Client ID >                   |
 | GOOGLE_CLIENT_SECRET     | < Google Client Secret >               |
+| GITHUB_ID                | < GitHub Client ID >                   |
+| GITHUB_SECRET            | < GitHub Client Secret >               |
 | RESEND_API_KEY           | < Resend API KEY >                     |
 | NEXT_PUBLIC_BASE_URL     | < Your base domain or localhost:3000 > |
 
