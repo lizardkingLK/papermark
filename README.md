@@ -1,8 +1,11 @@
+Hello World
+
 <div align="center">
   <h1 align="center">Papermark</h1>
   <h3>The open-source DocSend alternative.</h3>
 
-  <a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
+<a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
+
 </div>
 
 <div align="center">
@@ -27,10 +30,9 @@ Papermark is an open-source document sharing alternative to DocSend with built-i
 - **Analytics:** Get insights via document tracking and soon page-by-page analytics
 - **Self-hosted, open-source:** Host it yourself and hack on it
 
+## Demo
 
-## Demo 
 ![Papermark Welcome GIF](.github/images/papermark-welcome.gif)
-
 
 ## Tech Stack
 
@@ -43,7 +45,6 @@ Papermark is an open-source document sharing alternative to DocSend with built-i
 - [NextAuth.js](https://next-auth.js.org/) – auth
 - [Resend](https://resend.com) – email
 - [Vercel](https://vercel.com/) – hosting
-
 
 ## Getting Started
 
@@ -78,18 +79,17 @@ cp .env.example .env
 
 ### 4. Configure the variables in `.env`
 
-| Variable | Value |
-|---|---|
-| NEXTAUTH_SECRET | a random string |
-| NEXTAUTH_URL | < Your base domain or localhost:3000 > |
-| POSTGRES_PRISMA_URL  | < Vercel Postgres Pooling URL > |
-| POSTGRES_URL_NON_POOLING | < Vercel Postgres Non-Pooling URL > |
-| BLOB_READ_WRITE_TOKEN | < Vercel Blob Token > |
-| GOOGLE_CLIENT_ID | < Google Client ID > |
-| GOOGLE_CLIENT_SECRET | < Google Client Secret > |
-| RESEND_API_KEY | < Resend API KEY > |
-| NEXT_PUBLIC_BASE_URL | < Your base domain or localhost:3000 > |
-
+| Variable                 | Value                                  |
+| ------------------------ | -------------------------------------- |
+| NEXTAUTH_SECRET          | a random string                        |
+| NEXTAUTH_URL             | < Your base domain or localhost:3000 > |
+| POSTGRES_PRISMA_URL      | < Vercel Postgres Pooling URL >        |
+| POSTGRES_URL_NON_POOLING | < Vercel Postgres Non-Pooling URL >    |
+| BLOB_READ_WRITE_TOKEN    | < Vercel Blob Token >                  |
+| GOOGLE_CLIENT_ID         | < Google Client ID >                   |
+| GOOGLE_CLIENT_SECRET     | < Google Client Secret >               |
+| RESEND_API_KEY           | < Resend API KEY >                     |
+| NEXT_PUBLIC_BASE_URL     | < Your base domain or localhost:3000 > |
 
 ### 5. Initialize the database
 
@@ -107,7 +107,6 @@ npm run dev
 ### 7. Open the app in your browser
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
 
 ## Deploy your own
 
@@ -127,7 +126,6 @@ If you'd like to contribute, please fork the repository and make changes as you'
 <a href="https://github.com/mfts/papermark/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mfts/papermark" />
 </a>
-
 
 ## Inspiration
 
