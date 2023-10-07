@@ -2,7 +2,6 @@ import { useStats } from "@/lib/swr/use-stats";
 import ErrorPage from "next/error";
 import BarChartComponent from "../charts/bar-chart";
 
-
 export default function StatsChart({
   documentId,
   totalPages = 0,
@@ -17,7 +16,7 @@ export default function StatsChart({
   }
 
   if (!stats?.duration.data) {
-    return <div>No data</div>;
+    return <h2 className="pl-5 pt-2 pb-4">No data</h2>;
   }
 
   let durationData = {
